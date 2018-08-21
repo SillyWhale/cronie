@@ -1,0 +1,15 @@
+
+jobs/1min/*
+!jobs/1min/.gitkeep
+jobs/5min/*
+!jobs/5min/.gitkeep
+jobs/15min/*
+!jobs/15min/.gitkeep
+jobs/hourly/*
+!jobs/hourly/.gitkeep
+jobs/daily/*
+!jobs/daily/.gitkeep
+jobs/weekly/*
+!jobs/weekly/.gitkeep
+jobs/monthly/*
+!jobs/monthly/.gitkeep

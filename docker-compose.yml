@@ -1,0 +1,14 @@
+version: '3.6'
+
+services:
+  app:
+    image: docker.fricouv.eu/vfricou/cronie:latest
+    volumes:
+      - ${PWD}/jobs/1min:/jobs/1min
+      - ${PWD}/jobs/5min:/jobs/5min
+      - ${PWD}/jobs/15min:/jobs/15min
+      - ${PWD}/jobs/hourly:/jobs/hourly
+      - ${PWD}/jobs/daily:/jobs/daily
+      - ${PWD}/jobs/weekly:/jobs/weekly
+      - ${PWD}/jobs/monthly:/jobs/monthly
+    restart: always
